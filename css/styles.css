@@ -1,5 +1,5 @@
 body{
-    background: #ADAA8C;
+    background: #fff;
     max-width: 50%;
     margin: 0 auto;
 }
@@ -10,7 +10,7 @@ body{
     margin:10px;
     height: 250px;
     width:165px;
-    border-radius: 10px;
+    
 }
 
 a{
@@ -38,6 +38,7 @@ a{
     margin-top: 2%;
     border:5px solid #ADAA8C;
     border-radius: 10px;
+    box-shadow: 50px black; 
 }
 
 .lightbox:target {
@@ -47,4 +48,10 @@ a{
 
     /** Unhide lightbox **/
     display: block;
+}
+
+@media screen and(max-width: 580px){
+    body{
+        background: green;
+    }
 }
