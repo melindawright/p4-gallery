@@ -1,8 +1,5 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
-    max-width: 100%;
-    margin: auto;
-
     transition: all 1s;
 }
 
@@ -10,62 +7,62 @@ header{
     color:#fff;
     background: #33E5CF;
     border-bottom: solid 1px #ADAA8C;
-    margin-top:0;
-    padding-bottom: .4em;
-    margin-bottom:5%;
-
-
+	border-top: solid 1px #ADAA8C;
+	text-align: center;
+	margin-top: 2em;
 }
-h1{
-    font-weight: lighter;
-    width:50%;
-
+h1, h3{
+	padding: 0;
+	margin: 0;
+	font-weight: lighter;
 }
-
-
-ul{
-    
-    
-    font-size: .75em; 
-    font-style: italic;
+h3 {
+	margin-bottom: 1em;
 }
 nav {
-    float: right;
-    display: inline;
+	margin: 2em auto 4em;
+	text-align: center;
 }
 nav a{
     text-decoration: none;
-    color:yellow;
-    margin-left: 0px;
+    color:#33E5CF;
     padding: 10px;
-
-
     transition: all .75s;
+	font-style: italic;
 }
-
 nav a:hover {
     color:#33E5CF;
-    font-size: 2em;
-    
-
 }
-
 nav a:visited {
     color:#33E5CF;
 }
+footer {
+	float: right;
+	color:#33E5CF;
+	font-style: italic;
+	margin-right: 1em;
+	font-variant: small-caps;
+}
 .thumb img{
-    max-width: 200px;
-    padding:0;
-    margin:-2px -3px;
+    
     height: 250px;
     width:165px;
-    
-    
 }
-
+ul{    
+    font-size: .75em; 
+    font-style: italic;
+}
 a{
     text-decoration: none;
 }
+.container {
+	width: 80%;
+	margin: 2em auto;
+}
+.gallery{
+	margin: 2em
+}
+
 .lightbox {
     /** Default lightbox to hidden */
     display: none;
