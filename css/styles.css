@@ -1,15 +1,65 @@
 body{
-    background: #fff;
-    max-width: 50%;
-    margin: 0 auto;
+    font-family: 'Josefin Sans', sans-serif;
+    max-width: 100%;
+    margin: auto;
+
+    transition: all 1s;
 }
 
+header{
+    color:#fff;
+    background: #33E5CF;
+    border-bottom: solid 1px #ADAA8C;
+    margin-top:0;
+    padding-bottom: .4em;
+    margin-bottom:5%;
+
+
+}
+h1{
+    font-weight: lighter;
+    width:50%;
+
+}
+
+
+ul{
+    
+    
+    font-size: .75em; 
+    font-style: italic;
+}
+nav {
+    float: right;
+    display: inline;
+}
+nav a{
+    text-decoration: none;
+    color:yellow;
+    margin-left: 0px;
+    padding: 10px;
+
+
+    transition: all .75s;
+}
+
+nav a:hover {
+    color:#33E5CF;
+    font-size: 2em;
+    
+
+}
+
+nav a:visited {
+    color:#33E5CF;
+}
 .thumb img{
     max-width: 200px;
-    border:5px solid white;
-    margin:10px;
+    padding:0;
+    margin:-2px -3px;
     height: 250px;
     width:165px;
+    
     
 }
 
@@ -23,6 +73,7 @@ a{
     /** Position and style */
     position: fixed;
     z-index: 999;
+    
     width: 100%;
     height: 100%;
     text-align: center;
@@ -36,22 +87,28 @@ a{
     max-width: 90%;
     max-height: 80%;
     margin-top: 2%;
-    border:5px solid #ADAA8C;
-    border-radius: 10px;
+    border:5px solid #fff;
+    
     box-shadow: 50px black; 
 }
 
 .lightbox:target {
-    background: rgba(7, 49, 41, 0.88);
+    background: rgba(0, 0, 0, 0.7);
     /** Remove default browser outline */
     outline: none;
 
     /** Unhide lightbox **/
     display: block;
+    
 }
 
-@media screen and(max-width: 580px){
-    body{
-        background: green;
-    }
+@media screen and (max-width: 680px){
+    
+  body{
+    background: orange;
+  }
+  
+  section{
+    width:160px;
+  }
 }
